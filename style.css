@@ -1,0 +1,29 @@
+* {
+    background-color: antiquewhite;
+    font-family: Arial, serif;
+}
+
+h1 {
+    color: navy;
+}
+
+h2 {
+    color: forestgreen;
+    text-decoration: underline;
+
+}
+
+img {
+    width: 500px;
+    height: auto;
+}
+
+button {
+    background-color: goldenrod;
+}
+
+a {
+    color: maroon;
+    background-color: goldenrod;
+    text-decoration: none;
+}
