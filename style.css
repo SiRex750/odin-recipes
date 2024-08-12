@@ -1,29 +1,110 @@
 * {
-    background-color: antiquewhite;
+    background-color: lightslategray;
     font-family: Arial, serif;
+    color: white;
+    font-size: ;
+    /*border: 1px solid red;*/
 }
 
 h1 {
-    color: navy;
+    color: black;
+
+    background-color: burlywood;
+    margin: 0px;
+    padding: 8px;
 }
 
 h2 {
-    color: forestgreen;
+    color: black;
     text-decoration: underline;
+    margin: 16px;
 
+}
+
+img.cat {
+    width: 200px;
+    height: auto;
+    margin: 16px;
+    border: 4px;
+    border-color: black;
+    display: inline-block;
 }
 
 img {
-    width: 500px;
-    height: auto;
+    padding: 8px;
+    width: 200px;
+    height: 200px;
+    background-color: white;
 }
 
-button {
-    background-color: goldenrod;
+button, button a {
+    background-color: burlywood;
+    font-size: 18px;
+    margin: 8px;
+}
+
+
+ul.recipe-list {
+    display: flex;
+    list-style: none;
+    
+}
+
+li.recipe-link {
+    padding: 16px;
+    box-sizing: border-box;
+    height: 100px;
+    width: 250px;
+    margin: 16px;
+    background-color: burlywood;
+    text-align: center;
+    border-color: black;
+    border: 4px;
 }
 
 a {
-    color: maroon;
-    background-color: goldenrod;
+    background-color: burlywood;
+    color: white;
     text-decoration: none;
+    font-size: 32px;
+}
+
+body {
+    margin: 0px;
+    border: 8px;
+    
+}
+
+p.intro {
+    display: inline-block;
+    font-size: 24px;
+    padding: 16px;
+    background-color: white;
+    color: black;
+}
+
+div.intro-box {
+    display: flex;
+    background-color: white;
+
+}
+
+div.desc, div.desc h2, div.desc p, div.desc p b  {
+    background-color: white;
+    color: black;
+}
+
+p, ol, ul {
+    font-size: 18px;
+    margin: 16px;
+}
+
+li h3 {
+    color: maroon;
+
+}
+
+i {
+    padding-left: 32px;
+    color: burlywood;
 }
