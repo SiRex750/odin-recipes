@@ -49,16 +49,10 @@ ul.recipe-list {
     
 }
 
-li.recipe-link {
-    padding: 16px;
-    box-sizing: border-box;
-    height: 100px;
-    width: 250px;
-    margin: 16px;
-    background-color: burlywood;
-    text-align: center;
-    border-color: black;
-    border: 4px solid black;
+div.recipe-list {
+    margin: 64px;
+    margin-left: 8px;
+    margin-right: 8px;
 }
 
 a {
@@ -106,4 +100,20 @@ li h3 {
 i {
     padding-left: 32px;
     color: burlywood;
+}
+
+ a.recipe-link {
+    padding: 16px;
+    box-sizing: border-box;
+    height: 100px;
+    width: 250px;
+    margin: 16px;
+    background-color: burlywood;
+    text-align: center;
+    border-color: black;
+    border: 4px solid black;
+}
+
+a:hover.recipe-link {
+    background-color: rgb(226, 154, 60);
 }
