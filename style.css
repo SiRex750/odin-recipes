@@ -58,7 +58,7 @@ li.recipe-link {
     background-color: burlywood;
     text-align: center;
     border-color: black;
-    border: 4px;
+    border: 4px solid black;
 }
 
 a {
@@ -68,10 +68,10 @@ a {
     font-size: 32px;
 }
 
-body {
+html {
     margin: 0px;
-    border: 8px;
-    
+    border: 16px solid black;
+    border: 16px solid black;
 }
 
 p.intro {
